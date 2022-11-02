@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #cacaca;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.product-container img{
+    width: 200px;
+    position: relative;
+}
+
+.product-container img{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo{
+    display: flex;
+    position: relative;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 90px;
+    color: red;
+}
+
+.product-container p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.titulo2{
+    display: flex;
+    position: relative;
+    width: 200px;
+    margin-top: 40px;
+  
+
+}
+
+.product-container p2{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-right: 100px;  
+}
+
+.titulo3{
+    display: flex;
+    position: relative;
+    margin-top: 40px;
+    color: red;
+      
+}
+
+.titulo4{
+    display: flex;
+    position: relative;
+    margin-top: 40px;
+    
+}
+
+.product-container p3{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-right: 100px;    
+}
+
+.titulo5{
+    display: flex;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 1px;
+}
+
+
+.mapa img{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 900px;
+    margin-left: 10px;
+    margin-top: 20px; 
+}
+
+
